@@ -1,3 +1,4 @@
 # CV
-Personal academic CV in greek.
+Under Construction!!!
+Personal academic CV.
 Compiles with XeLateX.
