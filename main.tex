@@ -1,0 +1,323 @@
+\documentclass[12pt,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+%\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+%\renewcommand{\baselinestretch}{1.5} % Added by Nickos
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures={TeX}}
+%\setmainfont{Liberation Serif}
+%\setsansfont{Liberation Serif}
+%\setmonofont[SmallCapsFont={Liberation Serif}]{Liberation Serif}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{xcolor}
+\definecolor{cvlinkcolor}{RGB}{6,125,233}
+\hypersetup{colorlinks,linkcolor=cvlinkcolor,citecolor=cvlinkcolor,urlcolor=cvlinkcolor,bookmarksnumbered,
+%bookmarks=false, % NICKOS EDIT
+pdfinfo={Title={Curriculum Vitae},Author={Nikolaos Tourvas},Creator={Lighton Phiri},Subject={Curriculum Vitae},Keywords={Curriculum Vitae},CreationDate={D:20150513232724}}}
+\renewcommand\labelenumi{[\theenumi]}
+
+\date{}
+
+\begin{document}
+
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.0}\tabcolsep=0pt
+\begin{tabular}{p{0.42\linewidth}p{0.05\linewidth}p{0.35\linewidth}}
+
+  \multirow{1}{*}{\LARGE \textbf{Nikolaos Tourvas} | Curriculum Vitae} &  &  \\
+  
+  & & \\
+  
+  Ioannou Chrisostomou 13 & \multicolumn{1}{r}{Researchgate:\;\;} & \multicolumn{1}{l}{\url{researchgate.net/profile/Nikolaos_Tourvas}} \\
+  
+  GR54639, Thessaloniki, Greece & \multicolumn{1}{r}{ORCID iD:\;\;} & \multicolumn{1}{l}{\href{https://orcid.org/0000-0002-0476-4468}{orcid.org/0000-0002-0476-4468}} \\
+  
+  Phone: $+$30 6957686563 & \multicolumn{1}{r}{Github:\;\;} & \multicolumn{1}{l}{\href{https://github.com/nikostourvas}{https://github.com/nikostourvas}} \\
+  
+  Email: {\href{nikostourvas@gmail.com}{nikostourvas@gmail.com}} 
+\end{tabular}%
+}
+\end{table}
+
+
+\subsection{Education}\label{Education}
+\vspace{-3mm}
+
+\textbf{Nov 2018 -- currently: MSc Genetics, Plant Breeding 
+and Production of Plant Propagation Material, Department of Agriculture, AUTH}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item \textit{MSc Thesis}: Molecular genetic diversity of selected populations of wild olive and comparative analysis with the genetic profiles of cultivated varieties
+\vspace{2mm}
+\newline
+\textit{Supervisors}: Prof. Filippos A. Aravanopoulos, Assoc. Prof. Alexios Polidoras
+\end{itemize}
+
+\vspace{2mm}
+
+\textbf{Sept 2012 -- Apr 2018: BSc Forestry and Natural Environment, AUTH, GPA: 7.86/10}
+\begin{itemize}
+%\vspace{-3mm}
+\setlength\itemsep{-0.5em}
+\item \textit{Thesis}: Comparative analysis of molecular genetic diversity in mature trees and regeneration of a fir population in the frame of a genetic monitoring program. 
+\vspace{2mm}
+\newline
+\textit{Supervisor}: Prof. Filippos A. Aravanopoulos
+\end{itemize}
+
+\vspace{-3mm}
+
+\subsection{Work Experience}\label{work_experience}
+\vspace{-3mm}
+\textbf{Νοε 2016 - Τώρα: Συμμετοχή στα ευρωπαϊκά έργα:} [1] \textbf{"Informed"} (Ενοποιημένη Έρευνα για την Αντοχή και Διαχείριση Δασών στη Μεσόγειο) (12 μήνες) και [2] \textbf{"LifeGenMon"} (Ευρωπαϊκό σύστημα Γενετικής Παρακολούθησης των Δασών) (4 μήνες) - Εργαστήριο Δασικής Γενετικής και Βελτίωσης Δασοπονικών Ειδών - ΑΠΘ, Θεσσαλονίκη 
+
+\vspace{3mm}
+\begin{enumerate}
+
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Συλλογή δεδομένων πεδίου, Συλλογή δεδομένων μέσω συνεντεύξεων, Στατιστική ανάλυση μοριακών δεδομένων (SSR και ISSR) δασοπονικών ειδών 
+\item Δειγματοληψία φυτικού υλικού, Εκχύλιση DNA, PCR, Στατιστική ανάλυση μοριακών δεδομένων SSR πληθυσμών υβριδογενούς ελάτης
+\vspace{2mm}
+\newline
+\textit{Επιστημονικά υπεύθυνος}: καθηγητής Φίλιππος Α. Αραβανόπουλος
+\end{enumerate}
+
+\vspace{3mm}
+\textbf{Απρ - Μάι 2016: Πρακτική άσκηση - Ινστιτούτο Εφαρμοσμένων Βιοεπιστημών - ΕΚΕΤΑ, Θεσσαλονίκη}
+
+
+\vspace{3mm}
+\begin{itemize}
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Μοριακός χαρακτηρισμός ποικιλιών μήλου με χρήση δεικτών SSR (Εκχύλιση DNA, PCR) 
+\item Εκχύλιση DNA από παλαιωμένη ξυλεία πεύκης και ταξινομικός προσδιορισμός βάσει της χλωροπλαστικής αλληλουχίας \textit{trnL} με τη μέθοδο HRM
+%\end{itemize}
+%\vspace{-2mm}
+%\hspace{11mm}
+\vspace{2mm}
+\newline
+\textit{Επιβλέπων, EKETA}: Δρ. Παναγιώτης Μαδέσης, Κύριος Ερευνητής
+\newline
+%\hspace{11mm}
+\textit{Επιβλέπων, ΑΠΘ}: καθηγητής Φίλιππος Α. Αραβανόπουλος
+\end{itemize}
+
+\newpage
+
+\subsection{Εργαστηριακές δεξιότητες}\label{lab}
+\begin{itemize}
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Εκχύλιση DNA (CTAB, Extraction kits)
+\item Ποσοτικοποίηση νουκλεικών οξέων με φασματοφωτόμετρο τύπου Nanodrop
+\item Multiplex / touchdown / gradient / nested PCR, qPCR - HRM
+\item Γενοτύπηση μοριακών δεικτών (GeneMapper)
+\end{itemize}
+
+\subsection{Δεξιότητες ανάλυσης γενετικών δεδομένων}\label{genetics}
+%\vspace{-3mm}
+%Λογισμικό: GenAlEx, FSTAT, Genepop, Arlequin, Structure, MEGA, POPTREE2, NeEstimator, Bottleneck, R (πολλαπλά πακέτα), κ.α.
+\begin{itemize}
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Βασικές παράμετροι ποικιλότητας (GenAlEx, FSTAT, πακέτα R: poppr, genepop, pegas κ.α.)
+\item Γενετική διαφοροποίηση: AMOVA, Ομαδοποίηση βάσει πολυμεταβλητών αναλύσεων (PCA, PCoA, CA, DAPC) - (πακέτα R: adegenet, hierfstat, mmod, ade4 κ.α.)
+\item Ομαδοποίηση κατά Bayes - (Structure)
+\item Φυλογενετική ανάλυση: UPGMA, Neighbor-Joining - (POPTREE2, MEGA, πακέτα R: ape, poppr)
+\item Εκτίμηση δραστικού μεγέθους πληθυσμού, γενετικών στενωπών, μηδενικών αλληλομόρφων - (NeEstimator, Bottleneck, ML-NullFreq, R:strataG)
+\item Mantel test: Isolation By Distance - (GenAlEx, πακέτο R: adegenet)
+\item Επαναληψιμότητα - Διαμοιρασμός αναλύσεων: \href{https://bookdown.org/yihui/rmarkdown/notebook.html}
+{R Notebooks} (Literate programming), \href{https://arxiv.org/pdf/1410.0846.pdf}{Docker}
+%\item FST outliers
+\end{itemize}
+
+\subsection{Δεξιότητες χρήσης Η/Υ}\label{it}
+\begin{itemize}
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Προγραμματισμός: γλώσσα R (βασικό επίπεδο)
+%- δείγματα στο \href{https://github.com/nikostourvas}{github})
+\item Λειτουργικά συστήματα: Windows (συμπ. Microsoft Office), Linux
+\item Κατασκευή γραφημάτων: \href{https://ggplot2.tidyverse.org/}{ggplot2}
+\item Συστήματα στοιχειοθεσίας: Markdown
+%\item Συστημα ελέγχου εκδόσεων (git - Github)
+\item ArcGIS, QGIS (κατασκευή χάρτη, παρουσίαση γενετικών δεδομένων)
+\item Χωρική ανάλυση οικοσυστημικών υπηρεσιών (πλατφόρμα \href{https://naturalcapitalproject.stanford.edu/invest/}{InVEST})
+\end{itemize}
+
+\subsection{Επιμόρφωση}\label{courses}
+\begin{itemize}
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Εντατικό μάθημα βραχείας διάρκειας: "Concepts, Methods and Tools for an Integrated Approach of Resilience in Mediterranean Forests", Zaragoza (Spain), 12-16 December 2016
+%\item Διεθνές εκπαιδευτικό εργαστήριο (workshop): "Informed 2nd Modelling workshop", Madrid (Spain), 23-25 November 2016
+\end{itemize}
+
+\subsection{Γλωσσικές Δεξιότητες}\label{Γλώσσες}
+\begin{itemize}
+\vspace{-3mm}
+% * <nikostourvas@gmail.com> 2018-08-12T12:16:45.474Z:
+%
+% ^.
+\setlength\itemsep{-0.6em}
+\item \textbf{Αγγλική γλώσσα} - Άριστη γνώση - C2 - University of Michigan
+
+\item \textbf{Γερμανική γλώσσα} - Καλή γνώση - Β2 - Goethe Institut
+\end{itemize}
+
+%\newpage
+
+
+\subsection{Δημοσιεύσεις}\label{publications}
+
+\subsubsection{Επιστημονικά περιοδικά με συντελεστή απήχησης}\label{journals}
+\vspace{-3mm}
+\begin{enumerate}
+
+\leftskip-0.07in
+
+\item Ganopoulos, I., \textbf{Tourvas, N.}, Xanthopoulou, A., Aravanopoulos, F. A., Avramidou, E. V., Zambounis, A., Tsaftaris, A., Madesis, P., Sotiropoulos, T. and Koutinas, N. (2018) ‘Phenotypic and molecular characterization of apple (\textit{Malus} x \textit{domestica} Borkh) genetic resources in Greece’, \textit{Scientia Agricola}, 75(6), pp. 509–518. doi: \href{http://dx.doi.org/10.1590/1678-992x-2016-0499}{10.1590/1678-992x-2016-0499}
+
+
+\end{enumerate}
+
+
+\subsubsection{Πρακτικά Συνεδρίων}\label{conferences}
+
+\vspace{-3mm}
+\begin{enumerate}
+\leftskip-0.13in
+	\setcounter{enumi}{1}
+	
+\leftskip-0.07in  
+
+\leftskip-0.07in  
+\item {\textbf{Τουρβάς, Ν.}, Αραβανόπουλος Φ. Α. (2018) ‘Γενετική θεώρηση των πρακτικών αναδάσωσης για τη μεγιστοποίηση της ανάπαλσης των δασικών οικοσυστημάτων’, Πρακτικά \textit{17ο Πανελλήνιο Συνέδριο της Ελληνικής Επιστημονικής Εταιρείας Γενετικής Βελτίωσης Φυτών.} Πάτρα.}
+
+\leftskip-0.07in  
+\item {\textbf{Tourvas, N.} and Aravanopoulos, F. A. (2018) ‘Genetic aspects of reforestation practices for the maximization of forest ecosystem resilience’, in \textit{International Conference Reforestation Challenges.} Belgrade, Serbia, p. 82.}
+
+\leftskip-0.07in  
+\item {Aravanopoulos, F. A., Westergren, M., \textbf{Tourvas, N.}, Fussi, B., Finzgar, D., Bajc, M., Kavaliauskas, D., Malliarou, E., Kiourtsis, F. and Kraigher, H. (2018) ‘Genetic monitoring of hybridogenus populations: an analysis of \textit{Abies borisii-regis}, a hybrid between \textit{Abies alba }and the Greek endemic \textit{Abies cephalonica}’, in \textit{AForGeN Alpine Forest Genomics Network.} Kranjska Gora, Slovenia.}
+
+\item {\textbf{Tourvas, N.} and Aravanopoulos, F. A. (2018) ‘Genetic analysis and genetic monitoring of fir at different spatial scales’, in \textit{5th Students Conference: Organic Farming, Remote Sensing of Environment.} Thessaloniki: Faculty of Agriculture, Forestry and Natural Environment.
+
+\leftskip-0.07in  
+\item {Aravanopoulos, F. A., Avramidou, E. V., Malliarou, E., \textbf{Tourvas, N.}, Kotina, V., Korompoki, I., Ganopoulos, I., Alizoti, P., Barbas, E., Bekiaroglou, P., Hasilidis, P., Roussakis, G., Kiourtsis, F. and Fragiskakis, N. (2017) ‘Forest genetic monitoring (FGM) applied: first results from two FGM sites in Greece’, in \textit{Forest Genetics 2017: Health and Productivity under Changing Environments. A Joint Meeting of WFGA and CFGA,} University of Alberta, Edmonton.}
+
+\leftskip-0.07in  
+\item {Aravanopoulos, F. Α., \textbf{Tourvas, N.}, Avramidou., E., Alizoti, P., Barbas, E. (2017). The European research project INFORMED and the research in Greece on the resilience of Mediterranean forests. In: Proc. \textit{18th Pan-Hellenic Forest Science Society Conference,} Edessa, pp. 429-433}
+ 
+\leftskip-0.07in  
+\item {\textbf{Τουρβάς, Ν.}, Μαλλιαρού, E., Αβραμίδου, Ε. Β. Αραβανόπουλος, Φ. Α. (2017) ‘Συγκριτική ανάλυση μοριακής γενετικής ποικιλότητας ώριμων ατόμων και αναγέννησης ελάτης στα πλαίσια προγράμματος γενετικής παρακολούθησης’, Πρακτικά \textit{18ο Πανελλήνιο Δασολογικό Συνέδριο.} Έδεσσα.}
+
+\leftskip-0.07in  
+\item {\textbf{Tourvas, N.}, Malliarou, E., Avramidou, E. V. and Aravanopoulos, F. A. (2016) ‘Genetic Monitoring in fir: Initial results from comparative analysis of molecular genetic diversity of adult and regeneration individuals’, in \textit{8th Hellenic Ecological Society Conference.} Thessaloniki.}
+
+\leftskip-0.07in  
+\item {Aravanopoulos, F. A., Avramidou, E. V., Malliarou, E., \textbf{Tourvas, N.}, Ganopoulos, I., Alizoti, P., Barbas, E., Bekiaroglou, P., Hasilidis, P., Roussakis, G., Kiourtsis, F., Fragiskakis, N., Westergren, M., Fussi, B., Konnert, M. and Kraigher, H. (2016) ‘Life for forest genetic monitoring: an opportunity to monitor marginal forest tree populations in Greece’, in \textit{COST Action FP1202 MaP-FGR MC final meeting and COST FP1202, EUFORGEN, IUFRO WG 20213 joint final Conference on ‘Marginal and peripheral tree populations: a key genetic resource for European forests’,} Arezzo, Italy.}
+
+\leftskip-0.07in  
+\item {\textbf{Τουρβάς, Ν.}, Αβραμίδου, Ε. Β., Αραβανόπουλος Φ. Α. (2016) ‘Πρώτες συγκριτικές αναλύσεις ατόμων ελάτης (\textit{Abies borisii-regis}
+) σε διαφορετικό στάδιο ανάπτυξης με τη χρήση μικροδορυφόρων SSR’, Πρακτικά \textit{16ο Πανελλήνιο Συνέδριο της Ελληνικής Επιστημονικής Εταιρείας Γενετικής Βελτίωσης Φυτών.} Φλώρινα.}
+
+\end{enumerate}
+
+
+\subsubsection{Κεφάλαια βιβλίων διεθνών εκδόσεων}\label{book-chapters}
+
+\begin{enumerate}
+	\setcounter{enumi}{11}
+\leftskip-0.07in
+\vspace{-3mm}
+
+\item Aravanopoulos F.A., Alizoti P.G., \textbf{Tourvas N.}, Malliarou E., Avramidou E.V., Korompoki I.V., Kotina V.M., Barbas V. ,  Farsakoglou A.M. (2019). Overview on forest genetic monitoring including case studies on FGM for two species from Greece. In: Sijacic-Nikolic M., Milovanovic J. \& M. Nonic (eds). \textit{Forests of Southeast Europe Under a Changing Climate: Conservation of Genetic Resources (pp. 401–407)}. Springer (\href{https://www.springer.com/us/book/9783319952666}{in press}).
+
+
+\item Aravanopoulos F.A., Alizoti P.G., Farsakoglou A.M., Malliarou E., Avramidou E.V. , \textbf{Tourvas N.}  (2019). State of biodiversity and forest genetic resources in Greece in relation to conservation. In: Sijacic-Nikolic M., Milovanovic J. \& M. Nonic (eds). \textit{Forests of Southeast Europe Under a Changing Climate: Conservation of Genetic Resources (pp. 73-83)}. Springer (\href{https://www.springer.com/us/book/9783319952666}{in press}). 
+
+\end{enumerate}
+
+\subsubsection{Υπό συγγραφή}\label{in_preparation}
+
+\begin{enumerate}
+	\setcounter{enumi}{13}
+\leftskip-0.07in
+\vspace{-3mm}
+
+\item Westergren, M., \textbf{Tourvas, N.}, Finzgar, D., Kavaliauskas, D., Bajc, M., Malliarou, E., Fussi, B., Kraigher, H., Aravanopoulos, F. A. 'Estimation of sample size for accurate estimation of genetic diversity'
+
+\end{enumerate}
+
+\subsection{Δραστηριότητες επικοινωνίας με το ευρύ κοινό}\label{public_outreach}
+\begin{itemize}
+\vspace{-3mm}
+\setlength\itemsep{-0.6em}
+\item Ξεναγήσεις στο μουσείο φυσικής ιστορίας του τμήματος Δασολογίας και Φυσικού Περιβάλλοντος σε μαθητές πρωτοβάθμιας / δευτεροβάθμιας εκπαίδευσης (2014 - 2016) και συμμετοχή στην πρωτοβουλία \href{https://www.auth.gr/sites/default/files/web_final.pdf}{ΑΠΘ την Κυριακή} (2015)
+\vspace{2mm}
+\newline
+\textit{Υπεύθυνος}: Δρ. Νικόλαος Παραλυκίδης, ΕΔΙΠ
+\end{itemize}
+
+
+%\newpage
+
+%\subsection{References}\label{references}
+
+%Available on request.
+
+\end{document}
